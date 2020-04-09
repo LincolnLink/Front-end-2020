@@ -251,12 +251,12 @@ As novas APIs mais interessantes em HTML5 são:
 - O < picture>elemento HTML permite definir imagens diferentes para diferentes tamanhos de janelas do navegador.
 
     <blockquote>
-        <picture>
-            <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-            <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-            <source srcset="flowers.jpg">
-            <img src="img_smallflower.jpg" alt="Flowers">
-        </picture>
+        < picture>
+            < source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+            < source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+            < source srcset="flowers.jpg">
+            < img src="img_smallflower.jpg" alt="Flowers">
+        </ picture>
     </blockquote>
 
     exemplo na pratica : https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_picture
