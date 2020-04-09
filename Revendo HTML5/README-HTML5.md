@@ -171,7 +171,7 @@ As novas APIs mais interessantes em HTML5 são:
                     <h2>Famous Countries</h2>
                     <div class="country">
                     <h2>England</h2>
-                    <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                    <p>Texto longo</p>
                     </div>
 
                     <div class="country">
@@ -181,7 +181,7 @@ As novas APIs mais interessantes em HTML5 são:
 
                     <div class="country">
                     <h2>Japan</h2>
-                    <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+                    <p>Texto longo</p>
                     </div>
                 </section>
         </ article>       
