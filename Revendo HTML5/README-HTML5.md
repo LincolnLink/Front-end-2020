@@ -5,9 +5,9 @@ No entanto, o IE8 e versões anteriores, não permitem estilizar elementos desco
 - HTML5Shiv
 
     <blockquote>
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <![endif]-->
+        < !--[if lt IE 9]>
+        < script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        < ![endif]-->
     </blockquote>
 
 
