@@ -106,94 +106,47 @@ As novas APIs mais interessantes em HTML5 são:
     Outros exemplos: 
 
     <blockquote>        
-            <body>
-                <header>
-                    <h1>HTML5 Skeleton</h1>
-                </header>
-                <nav>                
-                    <ul>
-                        <li>News</li>
-                        <li>Sports</li>
-                        <li>Weather</li>
-                    </ul>
-                </nav>
-
-                <article>
-                    <h2>Famous Cities</h2>
-                    <article>
-                        <h2>London</h2>
-                        <p>Texto grande</p>
-                    </article>
-                    <article>
-                        <h2>Paris</h2>
-                        <p>Paris is the capital and most populous city of France.</p>
-                    </article>
-                    <article>
-                        <h2>Tokyo</h2>
-                        <p>Texto grande</p>
-                    </article>
-                </article>
-
-                <footer>
-                    <p>&copy; 2014 W3Schools. All rights reserved.</p>
-                </footer>
-            < /body>      
-
-    </blockquote>
-    
-    <blockquote>   
-        
-            <body>
-                <header>
-                <h1>HTML5 Skeleton</h1>
-                </header>
-                <nav>
-                <ul>
-                    <li>News</li>
-                    <li>Sports</li>
-                    <li>Weather</li>
-                </ul>
-                </nav>
-
-                <article>
-                    <h2>Famous Cities</h2>
-
-                    <div class="city">
-                        <h2>London</h2>
-                        <p>Texto grande</p>
-                    </div>
-
-                    <div class="city">
-                        <h2>Paris</h2>
-                        <p>Paris is the capital and most populous city of France.</p>
-                    </div>
-
-                    <div class="city">
-                        <h2>Tokyo</h2>
-                        <p>Texto grande</p>
-                    </div>
-                </article>
-
-                <footer>
-                    <p>&copy; 2014 W3Schools. All rights reserved.</p>
-                </footer>
-            </body>
+           
+        <article>
+            <h2>Famous Cities</h2>
+            <article>
+                <h2>London</h2>
+                <p>Texto grande</p>
+            </article>
+            <article>
+                <h2>Paris</h2>
+                <p>Paris is the capital and most populous city of France.</p>
+            </article>
+            <article>
+                <h2>Tokyo</h2>
+                <p>Texto grande</p>
+            </article>
+        </article>               
     </blockquote>
     
     <blockquote>
-        <body>
-            <header>
-            <h1>HTML5 Skeleton</h1>
-            </header>
-            <nav>
-            <ul>
-                <li>News</li>
-                <li>Sports</li>
-                <li>Weather</li>
-            </ul>
-            </nav>
+        <article>
+            <h2>Famous Cities</h2>
 
-            <article>
+            <div class="city">
+                <h2>London</h2>
+                <p>Texto grande</p>
+            </div>
+
+            <div class="city">
+                <h2>Paris</h2>
+                <p>Paris is the capital and most populous city of France.</p>
+            </div>
+
+            <div class="city">
+                <h2>Tokyo</h2>
+                <p>Texto grande</p>
+            </div>
+        </article>
+    </blockquote>
+    
+    <blockquote>
+        <article>
                 <section>
                     <h2>Famous Cities</h2>
                     <div class="city">
@@ -229,12 +182,7 @@ As novas APIs mais interessantes em HTML5 são:
                     <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
                     </div>
                 </section>
-            </article>
-
-            <footer>
-            <p>&copy; 2014 W3Schools. All rights reserved.</p>
-            </footer>
-        </body>    
+        </article>       
     </blockquote>
 
 - Elementos < figure> e < figcaption> HTML
@@ -243,10 +191,10 @@ As novas APIs mais interessantes em HTML5 são:
     O objetivo de uma legenda é adicionar uma explicação visual a uma imagem.  
 
     <blockquote>
-        <figure>
-            <img src="pic_trulli.jpg" alt="Trulli">
-            <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
-        </figure>
+        < figure>
+            < img src="pic_trulli.jpg" alt="Trulli">
+            < figcaption>Fig1. - Trulli, Puglia, Italy.</ figcaption>
+        </ figure>
     </blockquote> 
 
     O < img>elemento define a imagem, o < figcaption> elemento define a legenda.
