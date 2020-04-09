@@ -124,11 +124,12 @@ As novas APIs mais interessantes em HTML5 são:
         </ article>               
     </blockquote>
     
+    Div no Article
     <blockquote>
         < article>
-            <h2>Famous Cities</h2>
+            < h2>Famous Cities</h2>
 
-            <div class="city">
+            < div class="city">
                 <h2>London</h2>
                 <p>Texto grande</p>
             </div>
@@ -145,13 +146,14 @@ As novas APIs mais interessantes em HTML5 são:
         </ article>
     </blockquote>
     
+    Div na Section no Article
     <blockquote>
         < article>
-                <section>
-                    <h2>Famous Cities</h2>
-                    <div class="city">
-                    <h2>London</h2>
-                    <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                < section>
+                    < h2>Famous Cities</h2>
+                    < div class="city">
+                    < h2>London</h2>
+                    <p>Texto grande</p>
                     </div>
 
                     <div class="city">
@@ -161,7 +163,7 @@ As novas APIs mais interessantes em HTML5 são:
 
                     <div class="city">
                     <h2>Tokyo</h2>
-                    <p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+                    <p>Texto grande</p>
                     </div>
                 </section>
 
