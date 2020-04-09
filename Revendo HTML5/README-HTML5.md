@@ -237,7 +237,22 @@ As novas APIs mais interessantes em HTML5 são:
         </body>    
     </blockquote>
 
-# convenções de codificação e boas praticas
+- Elementos < figure> e < figcaption> HTML
+
+    Uma imagem e uma legenda podem ser agrupadas em um <figure> elemento.
+    O objetivo de uma legenda é adicionar uma explicação visual a uma imagem.  
+
+    <blockquote>
+        <figure>
+            <img src="pic_trulli.jpg" alt="Trulli">
+            <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+    </blockquote> 
+
+    O <img>elemento define a imagem, o <figcaption> elemento define a legenda.
+
+
+# Convenções de codificação e boas praticas
 
 - -Use nomes dos elementos do HTML em minisculo
 - -Fecha todos os elementos HTML, mesmo se for o "< p>", < p> texto </ p>
@@ -318,3 +333,8 @@ As novas APIs mais interessantes em HTML5 são:
         </html>
 
     </blockquote>
+
+# Consultas de mídia
+
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query
