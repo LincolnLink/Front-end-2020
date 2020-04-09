@@ -239,7 +239,7 @@ As novas APIs mais interessantes em HTML5 são:
 
 - Elementos < figure> e < figcaption> HTML
 
-    Uma imagem e uma legenda podem ser agrupadas em um <figure> elemento.
+    Uma imagem e uma legenda podem ser agrupadas em um < figure> elemento.
     O objetivo de uma legenda é adicionar uma explicação visual a uma imagem.  
 
     <blockquote>
@@ -249,7 +249,7 @@ As novas APIs mais interessantes em HTML5 são:
         </figure>
     </blockquote> 
 
-    O <img>elemento define a imagem, o <figcaption> elemento define a legenda.
+    O < img>elemento define a imagem, o < figcaption> elemento define a legenda.
 
 
 # Convenções de codificação e boas praticas
@@ -298,7 +298,7 @@ As novas APIs mais interessantes em HTML5 são:
 
 # Mostrar imagens diferentes, dependendo da largura do navegador
 
-- O <picture>elemento HTML permite definir imagens diferentes para diferentes tamanhos de janelas do navegador.
+- O < picture>elemento HTML permite definir imagens diferentes para diferentes tamanhos de janelas do navegador.
 
     <blockquote>
         <picture>
