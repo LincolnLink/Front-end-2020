@@ -18,4 +18,8 @@
 
 - JavaScript pode alterar valores de atributos de HTML
 
- -
+ -https://github.com/LincolnLink/Front-end-2020/blob/master/JavaScript%20Tutorial%20-%20w3schools/Exemplo%20do%20que%20JS%20pode%20fazer/exemploLampada.html
+
+<frame>
+	https://github.com/LincolnLink/Front-end-2020/blob/master/JavaScript%20Tutorial%20-%20w3schools/Exemplo%20do%20que%20JS%20pode%20fazer/exemploLampada.html
+</frame>
