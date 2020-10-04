@@ -3,10 +3,9 @@
 
 # Exemplos do que o JavaScript pode fazer.
 
+## JavaScript pode alterar o conteúdo HTML
 
-- JavaScript pode alterar o conteúdo HTML
-
- - Eele aceita aspas simples ou duplas
+ - Ele aceita aspas simples ou duplas
 
  <blockquote>
  	document.getElementById("demo").innerHTML = "Hello JavaScript";
@@ -16,10 +15,53 @@
 
  - Com o ".innerHTML" ele altera o conteúdo!
 
-- JavaScript pode alterar valores de atributos de HTML
+## JavaScript pode alterar valores de atributos de HTML
 
- -https://github.com/LincolnLink/Front-end-2020/blob/master/JavaScript%20Tutorial%20-%20w3schools/Exemplo%20do%20que%20JS%20pode%20fazer/exemploLampada.html
+ - Trocando o valor do atributo src!
 
-<frame>
-	https://github.com/LincolnLink/Front-end-2020/blob/master/JavaScript%20Tutorial%20-%20w3schools/Exemplo%20do%20que%20JS%20pode%20fazer/exemploLampada.html
-</frame>
+ <blockquote>
+
+ 	< !DOCTYPE html>
+
+	< html>
+	< head>
+		< title>Exemplo lampada</ title>
+	< /head>
+	< body>
+
+
+
+	< button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</ button>
+
+	< img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+	< button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+	Turn off the light
+	< /button>
+
+
+	< /body>
+	< /html>
+
+ </blockquote>
+
+## JavaScript pode alterar estilos HTML (CSS)
+
+
+ <blockquote>
+ 	document.getElementById("demo").style.fontSize = "35px";
+ </blockquote>
+
+## JavaScript pode ocultar elementos HTML (CSS)
+
+
+ <blockquote>
+ 	document.getElementById("demo").style.display = "none";
+ </blockquote>
+
+## JavaScript pode mostrar elementos HTML (CSS)
+
+ <blockquote>
+ 	document.getElementById("demo").style.display = "block";
+ </blockquote>
+
