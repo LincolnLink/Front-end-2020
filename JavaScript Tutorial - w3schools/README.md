@@ -1,4 +1,4 @@
-# Conseitos basicos de Java Script
+# CONCEITOS BÁSICOS DE JAVA SCRIPT
 
 
 # Exemplos do que o JavaScript pode fazer.
@@ -64,4 +64,64 @@
  <blockquote>
  	document.getElementById("demo").style.display = "block";
  </blockquote>
+
+# JavaScript para onde
+
+### A tag <script>
+
+ - Em HTML, o código JavaScript é inserido entre as tags <script>e </script>.
+
+ - Um JavaScript functioné um bloco de código JavaScript que pode ser executado quando "chamado".
+
+ - Por exemplo, uma função pode ser chamada quando ocorre um evento , como quando o usuário clica em um botão.
+
+ - Os scripts podem ser colocados na <body>, ou na <head>seção de uma página HTML, ou em ambas.
+
+ <blockquote>
+
+ 	< !DOCTYPE html>
+
+	< html>
+
+	< head>
+
+	< script>
+
+	function myFunction() {
+	  document.getElementById("demo").innerHTML = "Paragraph changed.";
+	}
+
+	< /script>
+
+	< /head>
+
+	< body>
+
+	< h1>A Web Page</ h1>
+
+	< p id="demo">A Paragraph</ p>
+
+	< button type="button" onclick="myFunction()">Try it</ button>
+
+	< /body>
+
+	< /html>
+
+ </blockquote>
+
+ - Os scripts também podem ser colocados em arquivos externos!
+
+ <blockquote>
+ 	<script src="myScript.js"></script>
+ </blockquote>
+
+ - Vantagens do JavaScript externo
+
+	- Ele separa HTML e código
+	- Torna HTML e JavaScript mais fáceis de ler e manter
+	- Arquivos JavaScript em cache podem acelerar o carregamento da página
+
+# Saída JavaScript
+
+### Possibilidades de exibição de JavaScript
 
