@@ -1,9 +1,9 @@
-#Conseitos basicos de Java Script
+# Conseitos basicos de Java Script
 
 
 # Exemplos do que o JavaScript pode fazer.
 
-## JavaScript pode alterar o conteúdo HTML
+### JavaScript pode alterar o conteúdo HTML
 
  - Ele aceita aspas simples ou duplas
 
@@ -15,7 +15,7 @@
 
  - Com o ".innerHTML" ele altera o conteúdo!
 
-## JavaScript pode alterar valores de atributos de HTML
+### JavaScript pode alterar valores de atributos de HTML
 
  - Trocando o valor do atributo src!
 
@@ -45,21 +45,21 @@
 
  </blockquote>
 
-## JavaScript pode alterar estilos HTML (CSS)
+### JavaScript pode alterar estilos HTML (CSS)
 
 
  <blockquote>
  	document.getElementById("demo").style.fontSize = "35px";
  </blockquote>
 
-## JavaScript pode ocultar elementos HTML (CSS)
+### JavaScript pode ocultar elementos HTML (CSS)
 
 
  <blockquote>
  	document.getElementById("demo").style.display = "none";
  </blockquote>
 
-## JavaScript pode mostrar elementos HTML (CSS)
+### JavaScript pode mostrar elementos HTML (CSS)
 
  <blockquote>
  	document.getElementById("demo").style.display = "block";
