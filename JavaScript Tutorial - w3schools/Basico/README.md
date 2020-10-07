@@ -142,11 +142,11 @@
 
  </blockquote>
 
- 	- Escrevendo na saída HTML usando document.write().
+   - Escrevendo na saída HTML usando document.write().
 
- 	- Escrevendo em uma caixa de alerta, usando window.alert().
+   - Escrevendo em uma caixa de alerta, usando window.alert().
 	
- 	- Escrevendo no console do navegador, usando console.log().
+   - Escrevendo no console do navegador, usando console.log().
 
  - Impressão JavaScript
 
