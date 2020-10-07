@@ -125,3 +125,39 @@
 
 ### Possibilidades de exibição de JavaScript
 
+
+ - JavaScript pode "exibir" dados de maneiras diferentes:
+
+ 	- Escrevendo em um elemento HTML, usando innerHTML.
+
+ <blockquote>
+
+
+	< script>
+
+	document.getElementById("demo").innerHTML = 5 + 6;
+
+	< /script>
+
+
+ </blockquote>
+
+ 	- Escrevendo na saída HTML usando document.write().
+
+ 	- Escrevendo em uma caixa de alerta, usando window.alert().
+	
+ 	- Escrevendo no console do navegador, usando console.log().
+
+ - Impressão JavaScript
+
+
+ <blockquote>
+
+ 	< button onclick="window.print()">Print this page</ button>
+
+ </blockquote>
+
+## Declarações JavaScript
+
+<blockquote>
+</blockquote>
