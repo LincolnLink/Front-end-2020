@@ -1,9 +1,9 @@
-# CSS Flexbox - Conceitos basicos
+# CSS Flexbox - Flex Container
 
  - Video aula: https://www.origamid.com/curso/css-flexbox/2-1-display-flex 
 
 
-### Flex Container
+### display: flex
 
  - "display: flex" : Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
 
@@ -13,6 +13,7 @@
 
  - Para deixar a largura de cada item padrão, até ocupar a largura total do container, deve se usar nos itens a propriedade CSS "flex: 1;", como se fosse uma largura definida em procentagem! 
 
-### Flex Item
+
+# CSS Flexbox - Flex Container
 
  - 
