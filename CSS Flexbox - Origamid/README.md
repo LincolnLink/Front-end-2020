@@ -14,6 +14,6 @@
  - Para deixar a largura de cada item padrão, até ocupar a largura total do container, deve se usar nos itens a propriedade CSS "flex: 1;", como se fosse uma largura definida em procentagem! 
 
 
-# CSS Flexbox - Flex Container
+# CSS Flexbox - Flex Item
 
  - 
