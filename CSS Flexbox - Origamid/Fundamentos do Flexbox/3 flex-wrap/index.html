@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<h1>flex-wrap: nowrap;</h1>
+<h2>Não permite quebrar a linha, padrão</h2>
+<section class="container nowrap">
+<!-- O nome grudado foi necessário pois eu preciso definir um conteúdo que não possa ser quebrado. Como uma palavra ou uma imagem. Se fosse uma frase, ele quebraria as linhas da frase antes de ultrapassar o container.	 -->
+	<div class="item">TesteDoItem1</div>
+	<div class="item">TesteDoItem2</div>
+	<div class="item">TesteDoItem3</div>
+</section>
+
+<h1>flex-wrap: wrap;</h1>
+<h2>Permite quebrar a linha</h2>
+<section class="container wrap">
+	<div class="item">TesteDoItem1</div>
+	<div class="item">TesteDoItem2</div>
+	<div class="item">TesteDoItem3</div>
+</section>
+
+<h1>flex-wrap: wrap-reverse;</h1>
+<h2> Quebra a linha só que de forma investida, botando o ultimo elemento para cima</h2>
+<section class="container wrap-reverse">
+	<div class="item">TesteDoItem1</div>
+	<div class="item">TesteDoItem2</div>
+	<div class="item">TesteDoItem3</div>
+</section>
+
+</body>
+</html>
