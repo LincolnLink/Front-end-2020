@@ -1,7 +1,12 @@
+
+# FlexBox
+
+    - Video aula: https://www.origamid.com/curso/css-flexbox/2-1-display-flex 
+
+
 # CSS Flexbox - Flex Container
 
- - Video aula: https://www.origamid.com/curso/css-flexbox/2-1-display-flex 
-
+    - O Flex Container é a tag que envolve os itens flex, ao indicar display: flex, essa tag passa a ser um Flex Container.
 
 ### display: flex 
 
@@ -109,3 +114,34 @@
     - align-items: baseline;
     // Alinha os itens de acordo com a linha base da tipografia.
 
+
+### align-content
+
+    - align-content: stretch;
+    // Valor padrão, ele que faz com que os flex itens cresçam igualmente na vertical.
+
+    - align-content: flex-start;
+    // Alinha todas as linhas de itens ao início.
+
+    - align-content: flex-end;
+    // Alinha todas as linhas de itens ao final.
+
+    - align-content: center;
+    // Alinha todas as linhas de itens ao centro.
+
+    - align-content: space-between;
+    // Cria um espaçamento igual entre as linhas. Mantendo a primeira grudada no topo e a última no bottom.
+
+    - align-content: space-around;
+    // Cria um espaçamento entre as linhas. Os espaçamentos do meio são duas vezes maiores que o top e bottom.
+
+
+# CSS Flexbox - Flex Item
+
+    - Os Flex Itens são os filhos diretos do Flex Container, lembrado que uma tag se torna um flex container a partir do momento que você definir display: flex.
+
+    - É possível que um Flex Item seja também um Flex Container, basta definir display: flex nele. Assim os filhos desse item também serão flex itens.
+
+### 1 • flex-grow
+
+ - 
