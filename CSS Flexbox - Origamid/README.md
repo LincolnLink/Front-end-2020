@@ -144,4 +144,19 @@
 
 ### 1 • flex-grow
 
- - 
+    - flex-grow: número;
+    // Basta definir um número
+
+    - flex-grow: 0;
+    // Obedece o width do elemento ou o flex-basis.
+
+### 2 • flex-basis
+
+    - flex-basis: auto;
+    // Esse é o padrão, ele faz com que a largura da base seja igual a do item. Se o item não tiver tamanho especificado, o tamanho será de acordo com o conteúdo.
+
+    - flex-basis: unidade;
+    // Pode ser em %, em, px e etc.
+
+    - flex-basis: 0;
+    // Se o grow for igual ou maior que 1, ele irá tentar manter todos os elementos com a mesma largura, independente do conteúdo (por isso 0 é o valor mais comum do flex-basis). Caso contrário o item terá a largura do seu conteúdo.
