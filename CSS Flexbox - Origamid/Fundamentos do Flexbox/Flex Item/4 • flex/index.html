@@ -1,28 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2 • flex-basis</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
-<br>
-
-<h2> 	
-	Indica o tamanho inicial do flex item antes da distribuição do espaço restante.
-</h2>
-<h2>
-	Quando definimos o flex-grow: 1; e possuímos auto no basis, o valor restante para ocupar o container é distribuído ao redor do conteúdo do flex-item.
-		</h2>
-
-
-<br>
-<h1>flex-basis: auto;</h1>
-<h2>Padrão, respeita o espaçamento com base no conteudo</h2>
+    <h1>flex: n 1 auto;</h1>
+    <h2>Tem as 3 pro priedades em uma só</h2>
+    <h2>grow - shrink - basis</h2>
 <section class="container">
 	<div class="item basis-auto">Palavra 1</div>
 	<div class="item basis-auto">2</div>
@@ -31,16 +20,8 @@
 	<div class="item basis-auto-grow-0">5</div>
 </section>
 
-<section class="container overlay">
-	<div class="item basis-auto">Palavra 1</div>
-	<div class="item basis-auto">2</div>
-	<div class="item basis-auto-grow-2">3</div>
-	<div class="item basis-auto-width">4</div>
-	<div class="item basis-auto-grow-0">5</div>
-</section>
-
-<h1>flex-basis: 0;</h1>
-<h2>Respeita o espaçamento com base na largura que o Grow-1 definiu</h2>
+<h1>flex: 1;</h1>
+<h2>Ficam do mesmo tamanho porq tem grow 1</h2>
 <section class="container">
 	<div class="item basis-0">Test de Cont</div>
 	<div class="item basis-0">2</div>
@@ -49,16 +30,9 @@
 	<div class="item basis-0-grow-0">5</div>
 </section>
 
-<section class="container overlay">
-	<div class="item basis-0">Test de Cont</div>
-	<div class="item basis-0">2</div>
-	<div class="item basis-0-grow-2">Palavra</div>
-	<div class="item basis-0-width">4</div>
-	<div class="item basis-0-grow-0">5</div>
-</section>
-
-<h1>flex-basis: número;</h1>
-<h2>Pode usar %, px, etc como se fosse um max-width</h2>
+<h1>flex: flex: 0 1 n;</h1>
+<h2>grow 0, shrink 1, basis n</h2>
+<h2>não fica do mesmo tamanho, limite de crescimento, espaçamento variado</h2>
 <section class="container basis-numero-container">
 	<div class="item basis-110">1</div>
 	<div class="item basis-110">12</div>
@@ -70,16 +44,17 @@
 	<div class="item basis-110-porcento">1234</div>
 </section>
 
-<h1>flex-basis: número; // Diferente Conteúdo</h1>
-<h2>sem grow-1 sobra espaço, e respeita o minimo de espaçamento do basis</h2>
+<h1>flex: 0 1 n; // Diferente Conteúdo</h1>
+<h2></h2>
 <section class="container basis-numero-container">
 	<div class="item basis-110">Conteúdo Grande</div>
 	<div class="item basis-110">PalavraMaior</div>
 	<div class="item basis-110">Oi</div>
 </section>
 
-<h1>flex-basis: número; // grow 1</h1>
-
+<h1>flex: 1 1 n; //</h1>
+<h2>Mesmo tamanho, limite de crecimento, espaçamento variado</h2>
+<h2>O basis não deixa ficar do mesmo tamanho e na mesma linha</h2>
 <section class="container basis-numero-container">
 	<div class="item basis-110-grow-1">1</div>
 	<div class="item basis-110-grow-1">12</div>
@@ -87,6 +62,6 @@
 	<div class="item basis-110-grow-1">12345</div>
 	<div class="item basis-600-grow-1">5</div>
 </section>
-
+    
 </body>
 </html>

@@ -160,3 +160,65 @@
 
     - flex-basis: 0;
     // Se o grow for igual ou maior que 1, ele irá tentar manter todos os elementos com a mesma largura, independente do conteúdo (por isso 0 é o valor mais comum do flex-basis). Caso contrário o item terá a largura do seu conteúdo.
+
+### 3 • flex-shrink
+
+    - Define a capacidade de redução de tamanho do item.
+
+### 4 • flex
+
+    - Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a propriedade flex nos flex itens ao invés de cada um dos valores separados.
+
+    - Para melhor consistência entre os browsers, é recomendado utilizar a propriedade flex ao invés de cada propriedade separada.
+
+    - No exemplo é possível ver as mesmas configurações do exemplo do flex-basis porém agora utilizando apenas a propriedade flex.
+
+
+### 5 • order
+
+    - Modifica a ordem dos flex itens. Sempre do menor para o maior, assim order: 1, aparece na frente de order: 5.
+
+### 6 • align-self
+
+    - O align-self serve para definirmos o alinhamento específico de um único flex item dentro do nosso container. Caso um valor seja atribuído, ele passara por cima do que for atribuído no align-items do container.
+
+    - Vale lembrar que o alinhamento acontece tanto em linha quanto em colunas. Por exemplo o flex-start quando os itens estão em linhas, alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.
+
+
+# Dicas
+
+- Por o o numero de telefone em um href, iniciando com "tel:"
+
+- Usar imagens grandes, e diminuir de acordo com flexbox.
+
+- "box-sizing: border-box ": faz com que o padding já esteja incluso na largura.
+
+- "flex-wrap: wrap": pode ajudar a deixar o layout responsivo.
+
+- Usa o "auto", "margin: 0 auto;" para alinhar ao centro mesmo usando flexbox.
+
+- Ajuda na hora de quebrar uuma imagem "flex: 1 1 160px;"
+
+- rem, relativo ao pai que é em
+
+- "min-width: 260px" para navegadores do safari quebrar a imagem ou itens
+
+- flex: 1 1 300px; 1 tamanho, 1, basis: 300px minimo de tamanho
+
+- padding: 60px calc((100% -960px) /2); é o "auto do padding."
+
+
+
+# Aula final
+
+- site que da dicas de como resolver problema no flexbox
+
+https://github.com/philipwalton/flexbugs
+
+
+
+
+
+
+
+
